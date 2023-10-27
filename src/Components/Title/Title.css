@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 150px;
+    text-align: center;
+    margin: 0;
+}
+.g-1 {
+    color:#4285f4
+}
+.o-1 {
+    color: #EA4335;
+}
+.o-2 {
+    color: #FFBB00;
+}
+.g-2 {
+    color: #4285f4;
+}
+.l {
+    color: #34a853;
+}
+.e {
+    color: #EA4335;
+}
+
+@media (max-width: 950px) {
+    h1 {
+        font-size: 80px
+    }
+}

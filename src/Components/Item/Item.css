@@ -1,0 +1,70 @@
+.item-destak {
+}
+.item-destak span {
+    display: none;
+}
+.item-destak__content {
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+.item-destak img {
+    width:  100%;
+}
+.item-destak h3 {
+    color: black;
+    text-transform: capitalize;
+}
+li h3 {
+    color: blue;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+a  {
+    display: inline-block;
+    margin: 10px 0 ;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+li p {
+    display: inline-block;
+    margin: 10px 0;
+    line-height: 21px;
+}
+li {
+    margin-bottom: 30px;
+}
+@media (max-width: 950px) {
+    .item-destak.active {
+        /* display: none; */
+    }
+    .item-destak {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+    .item-destak__content {
+         width: 70%;
+    }
+    .item-destak span{
+        display:inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
